@@ -80,7 +80,6 @@ func (svcHdlr AsicDaemonServiceHandler) GetBufferPortStatState(intfRef string) (
 
 func (svcHdlr AsicDaemonServiceHandler) GetBulkBufferGlobalStatState(currMarker, count asicdServices.Int) (*asicdServices.BufferGlobalStatStateGetInfo, error) {
 	return nil, nil
-
 }
 
 func (svcHdlr AsicDaemonServiceHandler) GetBufferGlobalStatState(deviceId int32) (*asicdServices.BufferGlobalStatState, error) {

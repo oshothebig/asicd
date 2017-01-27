@@ -38,7 +38,6 @@ func (svcHdlr AsicDaemonServiceHandler) CreateAclInternal(aclObj *asicdServices.
 
 func (svcHdlr AsicDaemonServiceHandler) DeleteAcl(aclObj *asicdServices.Acl) (bool, error) {
 	return true, nil
-
 }
 
 func (svcHdlr AsicDaemonServiceHandler) UpdateAcl(oldAclObj, newAclObj *asicdServices.Acl, attrset []bool, op []*asicdServices.PatchOpInfo) (bool, error) {
@@ -47,22 +46,18 @@ func (svcHdlr AsicDaemonServiceHandler) UpdateAcl(oldAclObj, newAclObj *asicdSer
 
 func (svcHdlr AsicDaemonServiceHandler) CreateAclRule(aclRuleObj *asicdServices.AclRule) (bool, error) {
 	return true, nil
-
 }
 
 func (svcHdlr AsicDaemonServiceHandler) CreateAclRuleInternal(aclRuleObj *asicdServices.AclRule, clientInt string) (bool, error) {
 	return true, nil
-
 }
 
 func (svcHdlr AsicDaemonServiceHandler) DeleteAclRule(aclRuleObj *asicdServices.AclRule) (bool, error) {
 	return true, nil
-
 }
 
 func (svcHdlr AsicDaemonServiceHandler) UpdateAclRule(oldAclRuleObj, newAclRuleObj *asicdServices.AclRule, attrset []bool, op []*asicdServices.PatchOpInfo) (bool, error) {
 	return true, nil
-
 }
 
 func (svcHdlr AsicDaemonServiceHandler) GetAclRuleState(ruleName string) (*asicdServices.AclRuleState, error) {
